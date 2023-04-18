@@ -1,0 +1,52 @@
+.container {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	background-color: #1a1a1a;
+	color: white;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	font-size: 3rem;
+	margin-top: 3rem;
+	font-family: 'Impact', sans-serif;
+	text-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.instructions {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	text-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+#game {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	text-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+body {
+	background-color: #000000;
+}
+
+button {
+	background-color: #ff0000;
+	color: white;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	margin: 1rem;
+	box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+	transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #660000;
+	cursor: pointer;
+	transform: scale(1.1);
+	box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.5);
+}
